@@ -61,13 +61,11 @@ const Player = ({ songs, currentSongIndex, setCurrentSongIndex, nextSongIndex })
     if(min < 10) {
       min = `0${min}`;
     }
-
     time = time % 60;
     let sec = parseInt(time);
     if(sec < 10) {
       sec = `0${sec}`;
     }
-
     return `${min} : ${sec}`;
   }
 
