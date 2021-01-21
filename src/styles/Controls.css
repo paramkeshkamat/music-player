@@ -1,6 +1,6 @@
 .Controls {
   width: 70%;
-  margin: 20px auto;
+  margin: 10px auto 25px auto;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -21,5 +21,5 @@
 }
 
 .play-btn svg {
-    font-size: 40px;
+  font-size: 45px;
 }

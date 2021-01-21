@@ -5,7 +5,7 @@ import data from "./data";
 const App = () => {
   // eslint-disable-next-line no-unused-vars
   const [songs, setSongs] = useState(data);
-  const [currentSongIndex, setCurrentSongIndex] = useState(0);
+  const [currentSongIndex, setCurrentSongIndex] = useState(Math.floor(Math.random() * data.length));
   const [nextSongIndex, setNextSongIndex] = useState(0);
 
   useEffect(() => {

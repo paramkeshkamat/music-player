@@ -1,5 +1,5 @@
 .Player {
-  max-width: 300px;
+  max-width: 320px;
   width: 90vw;
   margin: auto;
   background-color: #000000;
@@ -21,10 +21,52 @@
 
 .title {
   font-weight: 500;
-  font-size: 20px;
-  margin-bottom: 5px;
+  font-size: 17px;
+  margin-bottom: 7px;
+}
+
+.artist {
+  font-size: 22px;
 }
 
 p {
   font-size: 14px;
+}
+
+input[type="range"] {
+  width: 100%;
+  margin-top: 30px;
+  border-radius: 30px;
+  color: #000000;
+  -webkit-appearance: none;
+}
+
+input[type="range"]::-webkit-slider-runnable-track {
+  height: 4px;
+  background: rgba(255, 255, 255, 0.9);
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  border: none;
+  border-radius: 50%;
+  height: 15px;
+  width: 15px;
+  background: rgb(243, 223, 223);
+  margin-top: -5px;
+  transition: all 1s linear;
+}
+
+input[type="range"]:focus {
+  outline: none;
+}
+
+.slider-duration {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 3px;
 }
