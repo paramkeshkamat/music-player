@@ -1,0 +1,30 @@
+.Player {
+  max-width: 300px;
+  width: 90vw;
+  margin: auto;
+  background-color: #000000;
+  background-image: linear-gradient(315deg, #000000 0%, #414141 74%);
+  color: rgba(255, 255, 255, 0.9);
+  padding: 30px 35px;
+  border-radius: 25px;
+}
+
+.Details .image-container {
+  margin: 20px 0;
+  border-radius: 10px;
+}
+
+.image-container img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.title {
+  font-weight: 500;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+p {
+  font-size: 14px;
+}

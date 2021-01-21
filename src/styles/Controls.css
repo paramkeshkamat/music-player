@@ -1,0 +1,25 @@
+.Controls {
+  width: 70%;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.btn {
+  display: grid;
+  place-items: center;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.btn svg {
+  font-size: 30px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.play-btn svg {
+    font-size: 40px;
+}

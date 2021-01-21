@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import Details from "./Details";
 import Controls from "./Controls";
+import "../styles/Player.css";
 
 const Player = ({ songs, currentSongIndex, setCurrentSongIndex, nextSongIndex }) => {
   const audioElement = useRef(null);
@@ -40,7 +41,7 @@ const Player = ({ songs, currentSongIndex, setCurrentSongIndex, nextSongIndex })
       <h4>Playing Now</h4>
       <Details song={songs[currentSongIndex]} />
       <Controls isPlaying={isPlaying} setIsPlaying={setIsPlaying} skipSong={skipSong} />
-      <p> Next up: {songs[nextSongIndex].title} by {songs[nextSongIndex].artist}</p>
+      <p> Next up : {songs[nextSongIndex].title} by {songs[nextSongIndex].artist}</p>
     </div>
   );
 };

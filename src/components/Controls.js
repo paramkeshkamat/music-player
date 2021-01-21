@@ -1,10 +1,6 @@
 import React from "react";
-import {
-  AiFillPlayCircle,
-  AiFillPauseCircle,
-  AiFillBackward,
-  AiFillForward,
-} from "react-icons/ai";
+import { AiFillPlayCircle, AiFillPauseCircle, AiFillBackward, AiFillForward } from "react-icons/ai";
+import "../styles/Controls.css";
 
 const Controls = ({ isPlaying, setIsPlaying, skipSong }) => {
   return (
